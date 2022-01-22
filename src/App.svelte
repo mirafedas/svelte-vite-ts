@@ -1,13 +1,22 @@
 <script lang="ts">
-  import Header from "./lib/Header.svelte";
-  import Footer from "./lib/Footer.svelte";
-  import Calculator from "./lib/Calculator.svelte";
-  import Organizations from "./lib/Organizations.svelte";
+  import { Router, Route } from "svelte-routing";
+
+  import Home from "./routes/Home.svelte";
+  import Blog from "./routes/Blog.svelte";
+  import Books from "./routes/Books.svelte";
+  import ContactUs from "./routes/ContactUs.svelte";
+  import Header from "./components/Header.svelte";
+  import Footer from "./components/Footer.svelte";
+
+  // Used for SSR. A falsy value is ignored by the Router.
+  export let url = "";
 </script>
 
-<Header />
-<main class="flex flex-col items-center p-8">
-  <Calculator />
-  <Organizations />
-</main>
-<Footer />
+<Router {url}>
+  <Header />
+  <Route path="/" component={Home} />
+  <Route path="/blog" component={Blog} />
+  <Route path="/books" component={Books} />
+  <Route path="/contact-us" component={ContactUs} />
+  <Footer />
+</Router>
