@@ -3,7 +3,6 @@
 
   import Home from "./routes/Home.svelte";
   import Blog from "./routes/Blog.svelte";
-  import Books from "./routes/Books.svelte";
   import ContactUs from "./routes/ContactUs.svelte";
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
@@ -16,7 +15,6 @@
   <Header />
   <Route path="/" component={Home} />
   <Route path="/blog" component={Blog} />
-  <Route path="/books" component={Books} />
   <Route path="/contact-us" component={ContactUs} />
   <Footer />
 </Router>
