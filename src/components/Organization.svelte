@@ -8,7 +8,7 @@
 
   function goToDonationPage() {
     if (!organization.url) return;
-    window.open(organization.url, "_blank").focus();
+    // window.open(organization.url, "_blank").focus();
   }
 </script>
 

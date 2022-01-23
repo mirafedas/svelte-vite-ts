@@ -7,4 +7,3 @@
   <Calculator />
   <Organizations />
 </main>
-
