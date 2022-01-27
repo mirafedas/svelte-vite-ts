@@ -21,7 +21,7 @@
     min="0"
     type="number"
     name="money"
-    class="mb-8 bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+    class="mb-8 bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
   />
   <label
     for="percent"
@@ -34,7 +34,7 @@
     min="0"
     type="number"
     name="percent"
-    class="mb-4 bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+    class="mb-4 bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
   />
   <p>Donation size is: <span class="text-2xl">{donation}</span></p>
 </section>

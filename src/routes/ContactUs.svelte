@@ -1,3 +1,7 @@
+<script lang="ts">
+  import Button from "../lib/Button.svelte";
+</script>
+
 <section class="text-gray-600 body-font relative">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
@@ -51,10 +55,7 @@
           </div>
         </div>
         <div class="p-2 w-full">
-          <button
-            class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-            >Send</button
-          >
+          <Button type="submit" text="Send" customClass="flex mx-auto" />
         </div>
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
           <a
