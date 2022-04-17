@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "../app.css";
   import Button from "../lib/Button.svelte";
 </script>
 
