@@ -1,6 +1,6 @@
 <script lang="ts">
-  let money = 1000;
-  let percents = 10;
+  let money = 1574;
+  let percents = 53;
   $: donation = (money * percents) / 100;
 </script>
 

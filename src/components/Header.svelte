@@ -110,13 +110,13 @@
       class="md:ml-auto flex flex-wrap items-center text-base justify-center"
     >
       <ul class="list-none flex justify-between">
-        <li class="mr-2 hover:text-yellow-500">
+        <li class="mr-4 hover:text-yellow-500">
           <NavLink to="/">Home</NavLink>
         </li>
-        <li class="mr-2">
+        <li class="mr-4 hover:text-yellow-500">
           <NavLink to="/blog">Blog</NavLink>
         </li>
-        <li class="mr-2">
+        <li class="hover:text-yellow-500">
           <NavLink to="/contact-us">Contact us</NavLink>
         </li>
       </ul>

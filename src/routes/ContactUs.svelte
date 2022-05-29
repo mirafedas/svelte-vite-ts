@@ -3,9 +3,9 @@
   import Button from "../lib/Button.svelte";
 </script>
 
-<section class="text-gray-600 body-font relative">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-12">
+<main class="text-gray-600 body-font relative">
+  <section class="container px-5 py-24 mx-auto">
+    <article class="flex flex-col text-center w-full mb-12">
       <h1
         class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
       >
@@ -14,7 +14,7 @@
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
         The response time is usually 1-2 working days.
       </p>
-    </div>
+    </article>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
@@ -144,5 +144,5 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>

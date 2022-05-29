@@ -2,7 +2,6 @@
   import { organizations } from "../stores.js";
   import Organization from "./Organization.svelte";
   import Button from "../lib/Button.svelte";
-  import { fix_and_outro_and_destroy_block } from "svelte/internal";
 
   let organizations_value;
 
